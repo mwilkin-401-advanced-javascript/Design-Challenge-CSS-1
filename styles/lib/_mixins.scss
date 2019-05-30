@@ -7,10 +7,17 @@
   flex-direction: row;
   flex-wrap: wrap;
   justify-content: space-between;
-  align-items: center;
+  
 }
 
 @mixin center(){
   text-align: center;
+  margin-left: 50%;
+  margin-right: 50%;
+  align-items: center;
+
 }
 
+@mixin box-shadow($horiz : .5em , $vert : .5em , $blur : 0px , $spread : 0px , $color : #000000 ){
+  box-shadow: $horiz $vert $blur $spread $color;
+}
