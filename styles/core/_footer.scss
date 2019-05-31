@@ -1,4 +1,6 @@
 body {
   background-color: $accentColor;
   border-color: $rootColor;
+  @include flex();
+  @include center();
 }
